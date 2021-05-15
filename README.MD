@@ -1,4 +1,10 @@
-### React JS template for ASP.NET MVC/Web API (.net framework 4.x.x).
+### React JS with Typescript template source for ASP.NET MVC/Web API (.net framework 4.x.x).
+
+### With React JS 17.x.x, WebPack 5 and Typescript 4.x.x.x
+
+### This template intends to replace asp.net mvc's view with React JS
+
+React JS project is not bootstraped with CRA(create react app). 
 
 Webpack is configured in a way it injects scripts and styles inside _Layout.cshtml based on a template file _Template.cshtml.
 
@@ -19,3 +25,7 @@ Webpack splits the output bundle as well as hashed name is used to force the bro
 > Remember, I have used two names above Visual Studio and Visual Studio Code!
 
 #### I recommend using Visual Studio Code for front-end developement.
+
+
+### Disadvantages of this template
+1. No hot-reloading feature as scripts are injected in _layout.cshtml and uses IIS express as web server rather than webpack dev server.
