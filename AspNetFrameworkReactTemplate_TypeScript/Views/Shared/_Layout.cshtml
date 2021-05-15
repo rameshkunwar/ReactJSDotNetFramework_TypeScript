@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+   
+    @*Below code will insert CSS bundle - see more in webpack.config (dev or prod) file /Scripts/config/  *@
+    
+    <link rel="stylesheet" href="../../wwwroot/dist/app.css" />
+    
+</head>
+<body>
+    @RenderBody()
+
+    
+    <script src="../../wwwroot/dist/runtime.0997f48e5c1be15f3cca.bundle.js"></script>
+    
+    <script src="../../wwwroot/dist/vendors.a0d9e6f98237350d96d4.bundle.js"></script>
+    
+    <script src="../../wwwroot/dist/app.2a7afceee7397c565eff.bundle.js"></script>
+    
+   
+</body>
+</html>
